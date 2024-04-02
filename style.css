@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url(IMG/fundo.avif);
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+    overflow: hidden;
+}
+@font-face {
+    font-family: digital;
+    src: url(FONT/DS-DIGI.TTF);
+}
+.content{ 
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 50px;
+  background-color: rgb(206, 204, 230);
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#hora, #minuto, #segundo{
+    font-size: 100px;
+}
+
+div{
+    font-family: digital;
+    align-items: center;
+    margin: 20px;
+}
+#data{
+    color: white;
+}
+.content-data{
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
